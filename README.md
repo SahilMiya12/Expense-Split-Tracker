@@ -50,19 +50,6 @@ Interactive dashboard showing:
 ### Build Tool
 - Maven
 
-## 📂 Project Structure
-
-EExpense-Split-Tracker/
-│── src/
-│   ├── main/
-│   │   ├── java/
-│   │   ├── resources/
-│   │   └── templates/
-│── pom.xml
-│── mvnw
-│── mvnw.cmd
-⚙️ Installation & Setup
-
 1️⃣ Clone the Repository
 git clone https://github.com/SahilMiya12/Expense-Split-Tracker.git
 cd Expense-Split-Tracker
