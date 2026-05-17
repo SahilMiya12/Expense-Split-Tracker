@@ -16,10 +16,6 @@ ExpenseSplit is a full-stack web application that helps users manage and split e
 - 🎨 Modern Responsive UI
 - 🗄️ MySQL Database Integration
 
----
-
-## 🖼️ Screenshots
-
 ### Login Page
 Modern authentication page with responsive design.
 
@@ -54,11 +50,8 @@ Interactive dashboard showing:
 ### Build Tool
 - Maven
 
----
-
 ## 📂 Project Structure
 
-```bash
 Expense-Split-Tracker/
 │── src/
 │   ├── main/
@@ -68,10 +61,14 @@ Expense-Split-Tracker/
 │── pom.xml
 │── mvnw
 │── mvnw.cmd
+
 ⚙️ Installation & Setup
+
 1️⃣ Clone the Repository
 git clone https://github.com/SahilMiya12/Expense-Split-Tracker.git
 cd Expense-Split-Tracker
+
+
 2️⃣ Configure MySQL Database
 
 Create a MySQL database:
@@ -80,25 +77,22 @@ CREATE DATABASE expensesplit;
 
 Update your application.properties file:
 
-spring.datasource.url=jdbc:mysql://localhost:3306/expensesplit
+spring.datasource.url=jdbc:mysql://localhost:3306/expense_split_db
 spring.datasource.username=root
 spring.datasource.password=your_password
 
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
+
 3️⃣ Start MySQL Server
-
 Mac (Homebrew):
-
 brew services start mysql
-
 Check status:
-
 brew services list
+
 4️⃣ Run the Application
 ./mvnw spring-boot:run
 🌐 Access the Application
-
 Open your browser and visit:
 
-http://localhost:8080
+server.port=8080
