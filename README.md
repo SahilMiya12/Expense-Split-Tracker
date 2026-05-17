@@ -52,8 +52,7 @@ Interactive dashboard showing:
 
 ## 📂 Project Structure
 
-Expense-Split-Tracker/
-
+EExpense-Split-Tracker/
 │── src/
 │   ├── main/
 │   │   ├── java/
@@ -62,7 +61,6 @@ Expense-Split-Tracker/
 │── pom.xml
 │── mvnw
 │── mvnw.cmd
-
 ⚙️ Installation & Setup
 
 1️⃣ Clone the Repository
