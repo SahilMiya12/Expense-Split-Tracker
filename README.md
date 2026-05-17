@@ -53,6 +53,7 @@ Interactive dashboard showing:
 ## 📂 Project Structure
 
 Expense-Split-Tracker/
+
 │── src/
 │   ├── main/
 │   │   ├── java/
